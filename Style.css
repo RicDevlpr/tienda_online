@@ -1,0 +1,350 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: sans-serif;
+    
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+
+
+
+    
+ 
+    
+    
+}
+
+.menu_1{
+
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    
+   
+   
+    
+}
+
+.menu_central h1{
+   
+    font-size: 40px; 
+    margin-left: 80px;
+  
+
+    
+   
+
+
+}
+
+.menu_central_sub {
+    display: flex;
+    font-size: 10px;
+    margin-top: 2px;
+    justify-content: center;
+    
+    
+}
+
+
+.busqueda{
+    display: flex;
+
+    /* margin-right: 60px; */
+}
+
+.busqueda img{
+    width: 10px;
+    
+}
+
+.user_shopping img{
+    width: 15px;
+    
+}
+
+
+
+.menu_central_sub p{
+
+    padding-right: 22px;
+
+}
+
+
+
+.menu_lista {
+
+    margin-left: 20px;
+    position: fixed;
+ 
+
+
+    
+}
+
+
+a:hover{
+    color: brown;
+  
+   
+}
+
+ a{
+    text-decoration: none ;
+    color: black;
+    
+}
+
+#search_input{
+   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    width: 150px;
+    margin-right: 25px;
+  
+   
+
+    
+   
+
+
+}
+.filtros span{
+ 
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    font-size: 8.5px ;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: gray;
+
+
+ 
+}
+
+.Galeria{
+   margin: 35px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+ 
+
+  
+}
+
+.Galeria  img{
+    width: 380px;
+    height: 480px;
+}
+.descripcion_precio{
+
+    text-align: center;
+    line-height: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    
+    
+    
+}
+
+.descripcion_precio span{
+    
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.suscription_section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-top: 2px rgb(233, 226, 226) solid ;
+ 
+    
+}
+
+.suscription_section .descuento p{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.suscribete{
+    
+    font-size: 28px;
+   
+}
+
+#email{
+    width: 500px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.introduce_email{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.contact{
+    border-top: 2px rgb(233, 226, 226) solid ;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    color: gray;
+    padding-top: 30px;
+   
+   
+    
+}
+
+.contact .phone img{
+    width: 12px;
+}
+
+.phone{
+    font-size: 12px;
+    margin-right: 15px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+    border-right: 1px rgb(34, 30, 30) solid;
+    color: rgb(61, 201, 201);
+}
+
+.venta{
+    margin-right: 15px;
+    border-right: 1px rgb(34, 30, 30) solid;
+    padding-right: 8px;
+}
+
+.horario_atencion{
+    /* margin-left: 30px; */
+    padding-left: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    border-bottom: 2px rgb(233, 226, 226) solid ;
+    padding-bottom: 30px;
+
+}
+
+.menu_footer{
+    display: flex;
+    height: 350px; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 80px;
+    border-bottom: 2px rgb(233, 226, 226) solid ;
+
+}
+
+.menu_footer img{
+    width: 13px;
+    margin-right: 8px;
+}
+
+.menu_footer p{
+    font-weight: 700;
+}
+
+.menu_footer li{
+    list-style: none;
+
+}
+
+.footer{
+    height: 120px;
+    padding-top: 1px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    text-align: center;
+ 
+   
+    /* background-color: aqua; */
+}
+
+.pais{
+    border-right: 2px rgb(233, 226, 226) solid  ;  
+    padding-right: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.moda{
+    border-left: 2px rgb(233, 226, 226) solid;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.footer p{
+    font-weight: 300;
+}
+
+.footer img{
+    
+    width: 12px;
+}
+
+.footer span{
+    font-weight: 700;
+}
+
+@media only screen and (max-width:400px){
+
+    .menu_central h1{
+        margin-right: 90px;
+    }
+
+    .Galeria{
+        display: block;
+        grid-column: auto;
+        text-align: center;
+        margin-left: 100px;
+           
+    }
+
+    .menu_central_sub{
+        display: none;
+    }
+
+    .menu_central{
+        text-align: center;
+    }
+
+    .busqueda img{
+        display: none;
+    }
+
+    .busqueda img{
+        display:none;
+
+    }
+    
+}
